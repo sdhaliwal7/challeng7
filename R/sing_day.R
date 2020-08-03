@@ -18,8 +18,11 @@ sing_day <- function(dataset, line, phrase_col, num_word){
     num_word <- dataset %>% pull({{num_word}})
     word <- num_word[line+1]
     line = line
-    paste("On the", word, "day of Christmas, my true love sent to me,", phrases, "and a partridge in a pear tree.")
-  }
+    full <- paste("On the", word, "day of Christmas, my true love sent to me,", phrases, "and a partridge in a pear tree.")
+    return(full)
+    }
+
+
 
 
 

@@ -13,5 +13,4 @@
 pluralize_gift <- function(gift){
     gift <- gift %>% str_subset("[A-z]$") %>% paste("s", sep="")
     return(gift)
-
 }
