@@ -15,7 +15,7 @@
 #' @import purrr
 #'
 #' @export
-#Testing
+
 
 
 make_phrase <- function(num, num_word, item, verb='', adjective='', location= '') {
