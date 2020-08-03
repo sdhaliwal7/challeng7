@@ -15,9 +15,6 @@
 #' @import purrr
 #'
 #' @export
-
-
-
 make_phrase <- function(num, num_word, item, verb='', adjective='', location= '') {
   phrase <- paste(num_word, adjective, item, verb, location, sep =' ' )
   return(phrase)
