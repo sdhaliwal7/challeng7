@@ -15,13 +15,13 @@
 #' @import purrr
 #'
 #' @export
-
+#Testing
 
 
 make_phrase <- function(num, num_word, item, verb='', adjective='', location= '') {
   phrase <- paste(num_word, adjective, item, verb, location, sep =' ' )
   return(phrase)
-}
+}  
 
 
 
