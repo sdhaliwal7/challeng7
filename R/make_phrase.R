@@ -25,12 +25,6 @@ make_phrase <- function(num, num_word, item, verb='', adjective='', location= ''
 
 
 
-make_phrase(num = 10,
-            num_word ="ten",
-            item = "lords",
-            verb = "a-leaping",
-            adjective = "",
-            location = "")
 
 
 
