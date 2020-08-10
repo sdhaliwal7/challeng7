@@ -10,7 +10,7 @@
 #' @import purrr
 #'
 #' @export
-pluralize_gift <- function(gift){
-    gift <- gift %>% str_subset("[A-z]$") %>% paste("s", sep="")
-    return(gift)
+many_sample_means <- function(vec, n, reps) {
+  rep <- as.vector(replicate(reps, sample_mean(vec, n)))
+  return(rep)
 }
