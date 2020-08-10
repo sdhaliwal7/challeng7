@@ -13,14 +13,12 @@
 #' @import purrr
 #'
 #' @export
-sing_day <- function(dataset, line, phrase_col, num_word){
-    phrases <- dataset %>% pull({{phrase_col}})
-    num_word <- dataset %>% pull({{num_word}})
-    word <- num_word[line+1]
-    line = line
-    full <- paste("On the", word, "day of Christmas, my true love sent to me,", phrases, "and a partridge in a pear tree.")
-    return(full)
-    }
+sample_means_ns <- function(vec, reps, ns) {
+  samp <- many_sample_means(vec, ns, reps)
+  n <- as.vector(replicate(reps, ns))
+  dat <- data.frame(samp, n, stringsAsFactors = FALSE)
+  return(dat)
+  }
 
 
 
