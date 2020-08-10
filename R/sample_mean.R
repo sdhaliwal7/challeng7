@@ -8,7 +8,7 @@
 #' @param location A string
 #'
 #' @return A string containing the words in grammatical order.
-#'
+#' @import tidyverse
 #' @import stringr
 #' @import glue
 #' @import dplyr
