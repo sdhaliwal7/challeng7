@@ -1,12 +1,12 @@
-Package: twelvedays
-Title: Sing the 12 Days of Christmas
+Package: challenge7
+Title: I am just trying to create a package
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Kelly",
-           family = "Bodwin",
+    person(given = "Sahib",
+           family = "Sahib",
            role = c("aut", "cre"),
-           email = "kelly@bodwin.us")
-Description: This is a practice package for coursework.
+           email = "sahibd12@gmail.com")
+Description: This is a practice package for sahib
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
